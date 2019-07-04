@@ -15,6 +15,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  logSomething:function(){
+    console.log("今天好");
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

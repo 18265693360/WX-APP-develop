@@ -1,0 +1,4 @@
+<!--pages/first/first.wxml-->
+<view>
+  <text>我是首页</text>
+</view>
