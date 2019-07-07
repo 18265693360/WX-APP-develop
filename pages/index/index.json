@@ -1,3 +1,6 @@
+
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "content-item":"./content-item/content-item"
+  }
 }

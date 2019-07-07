@@ -1,4 +1,29 @@
 /**index.wxss**/
-.text{
-    color: #409eff;
+.container .news-swiper{
+    /*设备有逻辑像素和物理像素之分
+     750 1334 发光点
+     1px控制两个像素点 1rpx管理两个像素点
+     */
+    height: 600rpx;
+    border-bottom: 1rpx solid #409eff;
+}
+
+.swiper-item-wrap{
+    position: relative;
+}
+
+.swiper-title{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #fff000;
+    text-align: center;
+}
+
+.news-swiper .news-swiper-img{
+    display: block;
+    width: 100%;
+    height: 600rpx;
 }

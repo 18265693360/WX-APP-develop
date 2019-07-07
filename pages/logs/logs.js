@@ -11,5 +11,10 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  jump(){
+    wx.switchTab({
+      url:"/pages/index/index"
+    })
   }
-})
+});

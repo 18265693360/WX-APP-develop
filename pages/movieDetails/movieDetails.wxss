@@ -1,0 +1,148 @@
+/* pages/movieDetails/movieDetails.wxss */
+.movie-details .video{
+    display: block;
+    width: 100%;
+    height: 420rpx;
+}
+
+.play-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.play-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 210rpx;
+    padding: 10px 0;
+    border: 1px solid #e0e0e0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1;
+    margin-top: 20rpx;
+    color: #888;
+    margin-right: 12rpx;
+}
+
+.play-list-item:nth-child(3n){
+    margin-right: 0;
+}
+
+.active{
+    border: 1px solid #4db1a1;
+}
+
+.movie-desc {
+    padding: 0 20px 20px 20px;
+}
+
+.row-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-one .desc{
+    color: #888;
+    /*font-size: 12px;*/
+}
+
+.row-one .title{
+    font-size: 18px;
+    font-weight: 340;
+}
+
+.douban{
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    color:#ff6700;
+    font-size: 14px;
+}
+
+
+.douban .douban-text{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.movie-desc .movie-desc-details{
+    margin-top: 20rpx;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.guess-content{
+    margin-top: 20px;
+}
+
+.guess-content .item{
+    display: flex;
+    margin: 20rpx 20px;
+}
+
+.guess-content .item-right{
+    margin-left: 20px;
+}
+
+.guess-content .item-right .title{
+    margin-top: 10rpx;
+    font-size: 16px;
+    color: #888;
+}
+
+.guess-content .item-right .actors{
+    font-size: 12px;
+    margin-top: 20rpx;
+    color: #888888;
+}
+/*flex-basis 属性用于设置或检索弹性盒伸缩基准值。
+设置第二个弹性盒元素的初始长度为 80 像素：
+div:nth-of-type(2) {flex-basis: 80px;}
+如果元素不是弹性盒对象的元素，则 flex-basis 属性不起作用。
+*/
+
+.guess-content .item .item-img{
+    display: flex;
+    flex-basis: 226rpx;
+    width: 226rpx;
+    height: 260rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

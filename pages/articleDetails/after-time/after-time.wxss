@@ -1,0 +1,6 @@
+/* pages/articleDetails/after-time/after-time.wxss */
+.date{
+    font-size: 12px;
+    font-weight: 300;
+    color: #888888;
+}

@@ -2,17 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa69e4ba-fcce-4197-be56-ca82c68c3a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/index(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/learn(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/learn(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/tab1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/tab2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab-icon/article_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab-icon/article_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab-icon/movie_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab-icon/movie_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/icon/iconfont.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/00.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/72.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/73.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/74.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/75.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/76.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/77.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/78.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/79.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/80.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/81.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/82.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/83.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/84.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/85.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/86.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/87.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/88.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/89.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/90.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/91.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/92.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/93.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/94.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/95.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/96.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/97.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/98.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/emojis/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/html2json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/htmlparser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/showdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/wxDiscode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/wxParse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/wxParse.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxParse/wxParse.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/first/first.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/first/first.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/first/first.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/first/first.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/logs/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/logs/logs.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/learn(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/learn(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/tab1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/tab2.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,39 +190,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.wxss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index(1).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index(2).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+        <entry file="file://$PROJECT_DIR$/pages/articleDetails/articleDetails.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/axios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -64,37 +221,79 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movie/movie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movie/movie.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movie/movie.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding>
+                <element signature="n#video#0;n#view#0;n#!!top" />
+                <element signature="n#button#0;n#view#0;n#view#0;n#!!top" />
+                <element signature="e#636#683#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+        <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="307">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/learn(1).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/learn(2).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/tab1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,18 +302,41 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/first/first.wxml" />
-        <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/pages/index/index.js" />
-        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/logs/logs.wxml" />
+        <option value="$PROJECT_DIR$/pages/logs/logs.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/utils/axios.js" />
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/index/index.json" />
+        <option value="$PROJECT_DIR$/pages/index/content-item/content-item.js" />
+        <option value="$PROJECT_DIR$/pages/index/content-item/content-item.wxml" />
+        <option value="$PROJECT_DIR$/pages/index/content-item/content-item.wxss" />
+        <option value="$PROJECT_DIR$/pages/articleDetail/articleDetaile.wxml" />
+        <option value="$PROJECT_DIR$/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/articleDetails.json" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/after-time/after-time.wxml" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/after-time/after-time.wxss" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/after-time/after-time.js" />
+        <option value="$PROJECT_DIR$/app.wxss" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/articleDetails.js" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/articleDetails.wxml" />
+        <option value="$PROJECT_DIR$/pages/articleDetails/articleDetails.wxss" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/movie/movie.js" />
+        <option value="$PROJECT_DIR$/pages/movie/movie.wxss" />
+        <option value="$PROJECT_DIR$/pages/movie/movie.wxml" />
+        <option value="$PROJECT_DIR$/pages/movieDetails/movieDetails.js" />
+        <option value="$PROJECT_DIR$/pages/movieDetails/movieDetails.wxml" />
+        <option value="$PROJECT_DIR$/pages/movieDetails/movieDetails.wxss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="498" />
-    <option name="y" value="191" />
-    <option name="width" value="905" />
-    <option name="height" value="1057" />
+    <option name="x" value="1085" />
+    <option name="y" value="23" />
+    <option name="width" value="1209" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,12 +361,30 @@
               <item name="Practice Little App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice Little App" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="articleDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practice Little App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice Little App" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Practice Little App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice Little App" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practice Little App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice Little App" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="movieDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practice Little App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice Little App" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +401,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/tab-icon" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,21 +433,35 @@
       <option name="presentableId" value="Default" />
       <updated>1562241861996</updated>
       <workItem from="1562241863363" duration="1403000" />
+      <workItem from="1562244020114" duration="3767000" />
+      <workItem from="1562249098268" duration="185000" />
+      <workItem from="1562289772825" duration="608000" />
+      <workItem from="1562302352597" duration="313000" />
+      <workItem from="1562305663313" duration="3352000" />
+      <workItem from="1562314086848" duration="1086000" />
+      <workItem from="1562315361465" duration="65000" />
+      <workItem from="1562315987178" duration="13423000" />
+      <workItem from="1562401274096" duration="9704000" />
+      <workItem from="1562417934022" duration="3781000" />
+      <workItem from="1562464911201" duration="796000" />
+      <workItem from="1562466648881" duration="10319000" />
+      <workItem from="1562482231311" duration="5513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1403000" />
+    <option name="totallyTimeSpent" value="54315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="191" width="905" height="1057" extended-state="0" />
+    <frame x="578" y="35" width="1209" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18602693" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.33508956" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32982087" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -219,84 +479,268 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/first/first.js">
+    <entry file="file://$PROJECT_DIR$/static/learn(2).png" />
+    <entry file="file://$PROJECT_DIR$/static/tab1.png" />
+    <entry file="file://$PROJECT_DIR$/pages/map/map.js" />
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/first/first.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/first/first.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/tab2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/sitemap.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../前端视频/复习/小程序第一天/代码/little-demo/app.js">
+    <entry file="file://$PROJECT_DIR$/pages/index/content.js" />
+    <entry file="file://$PROJECT_DIR$/../../前端视频/复习/小程序第二天/movie/pages/index/content-item/content-item.wxml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../前端视频/复习/小程序第一天/代码/little-demo/app.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetail/articleDetaile.js" />
+    <entry file="file://$PROJECT_DIR$/pages/articleDetail/articleDetaile.json" />
+    <entry file="file://$PROJECT_DIR$/pages/articleDetail/articleDetaile.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/articleDetail/articleDetaile.wxss" />
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxParse/wxParse.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/content-item/content-item.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/after-time/after-time.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/after-time/after-time.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/after-time/after-time.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../前端视频/复习/小程序第二天/movie/pages/articleDetails/after-time/after-time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../前端视频/复习/小程序第二天/movie/pages/articleDetails/after-time/after-time.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/articleDetails.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/after-time/after-time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/icon/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/icon/iconfont.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index(1).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/tab1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/learn(2).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index(2).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/learn(1).png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/articleDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/content-item/content-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/content-item/content-item.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/content-item/content-item.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="417">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movie/movie.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tab-icon/article_active.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tab-icon/article_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tab-icon/movie_active.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tab-icon/movie_default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/articleDetails.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/articleDetails/articleDetails.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movie/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movie/movie.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movie/movie.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="n#video#0;n#view#0;n#!!top" />
+            <element signature="n#button#0;n#view#0;n#view#0;n#!!top" />
+            <element signature="e#636#683#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movieDetails/movieDetails.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>

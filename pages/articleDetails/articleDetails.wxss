@@ -1,0 +1,127 @@
+/* pages/articleDetails/articleDetails.wxss */
+@import '../../wxParse/wxParse.wxss';
+
+.img-wrap .img{
+    display: block;
+    width: 100%;
+    height: 260px;
+    border: 1px solid #f1f1f1;
+}
+
+.author-msg{
+    display: flex;
+    /*padding: 20px;*/
+    color: #000;
+    /*font-weight: 600;*/
+    /*justify-content: space-between;*/
+    /*align-items: 是垂直居中的关键;*/
+    align-items: center;
+    padding: 20px;
+}
+
+.author-msg .avatar{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.author-msg .author{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.author-msg .publish{
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.author-msg .date{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.article-details .title{
+    padding: 20px;
+}
+
+.article-details{
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+    padding: 20px;
+    /*可以去除top*/
+    padding-top: 0;
+    font-size: 16px;
+}
+
+
+.more{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 100rpx;
+}
+
+.more .icon{
+    /*把线放到icon下*/
+    position: relative;
+    z-index: 996;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    color: #fffdef;
+    /*icon就是字体 字体大小就可以控制*/
+    font-size: 26px;
+}
+.icon:first-child{
+    background: #d9d9d9;
+}
+
+.icon:nth-child(2){
+    background: #4db1a1;
+}
+
+.more::after{
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: #000;
+    transform: translateY(-50%);
+}
+
+.article-details .content{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

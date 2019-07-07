@@ -1,0 +1,56 @@
+/* pages/movie/movie.wxss */
+/*@import'../../wxParse/wxParse.wxss';*/
+
+/* 笨蛋类名错了 .move .swiper{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: 800px;*/
+/*}*/
+.movie .swiper{
+    display: block;
+    width: 100%;
+    height: 500rpx;
+}
+
+.movie .swiper .swiper-img{
+    display: block;
+    width: 100%;
+    height: 500rpx;
+}
+
+.hot-movie{
+    padding: 20px;
+}
+
+.hot-movie .title{
+    font-size: 16px;
+    margin-bottom: 10rpx;
+}
+
+.movie-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*flex中不会自动换行 所以用 flex-wrap 换行*/
+}
+
+.movie-content .movie-item{
+    /*750-(20px*2)rpx*2  / 3 = 210rpx*/
+    /*margin-top: 10rpx;*/
+    font-size: 12px;
+    text-align: center;
+    color: #888888;
+    width: 210rpx;
+    height: 380rpx;
+}
+.movie-item .movie-img{
+    display: block;
+    width: 100%;
+    height: 260rpx;
+}
+
+.movie-content .title{
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 600;
+}
