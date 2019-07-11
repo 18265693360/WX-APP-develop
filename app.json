@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/articleDetails/articleDetails",
     "pages/movie/movie",
-    "pages/movieDetails/movieDetails"
+    "pages/movieDetails/movieDetails",
+    "pages/swiper-Details/swiper-Details"
   ],
   "window": {
     "backgroundTextStyle": "light",

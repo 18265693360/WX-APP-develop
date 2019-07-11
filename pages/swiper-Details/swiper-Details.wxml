@@ -1,0 +1,67 @@
+<!--pages/swiper-Details/swiper-Details.wxml-->
+<view class="movie-details">
+    <video src="{{url}}"
+           id="video"
+           class="video"
+           controls="{{true}}"
+           show-fullscreen-btn="{{true}}"
+           show-play-btn="{{true}}"
+           show-center-play-btn="{{true}}"
+           title="{{movie.title}}"
+           poster="{{movie.img}}"
+           vslide-gester="{{true}}"
+    ></video>
+
+    <view class="play-list">
+        <button
+                class="play-list-item {{activeIndex == index?'active':''}}"
+                wx:for="{{movie.linksTitle}}"
+                wx:key="{{index}}"
+                bindtap="changeUrl"
+                data-index="{{index}}"
+        >
+            <!--绑定对应的播放地址
+             bindtap="changeUrl()"-->
+            <!--内容 item-->
+            {{item}}
+        </button>
+    </view>
+
+    <view class="movie-desc">
+        <view class="row-one">
+            <view class="title">
+                {{movie.title}}
+            </view>
+            <view class="desc">
+                简介 >
+            </view>
+        </view>
+        <view class="douban">
+            <text class="douban-text">
+                豆瓣评分: {{movie.grade}}
+            </text>
+        </view>
+        <view class="movie-desc-details">
+            {{movie.plot}}
+        </view>
+    </view>
+
+    <view class="guess">
+        <view class="title">猜你喜欢</view>
+
+        <view class="guess-content">
+            <view class="item"
+                  wx:for="{{guess}}"
+                  wx:key="{{index}}">
+                <image src="{{item.img}}" class="item-img"></image>
+                <view class="item-right">
+                    <view class="title">{{item.title}}</view>
+                    <view class="actors">
+                        {{item.actorStr}} 领衔主演
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

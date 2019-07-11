@@ -1,4 +1,4 @@
-/* pages/movieDetails/movieDetails.wxss */
+/* pages/swiper-Details/swiper-Details.wxss */
 .movie-details .video{
     display: block;
     width: 100%;

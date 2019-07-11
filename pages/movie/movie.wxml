@@ -1,21 +1,25 @@
 <!--pages/movie/movie.wxml-->
 <view class="movie">
 
-    <swiper class="swiper"
-            circular="{{true}}"
-            indicator-color="rgba(255,255,255,.6)"
-            indicator-dots="{{true}}"
-            indicator-active-color="#409eff"
+    <view class="swiper-content">
+        <swiper class="swiper"
+                circular="{{true}}"
+                indicator-color="rgba(255,255,255,.6)"
+                indicator-dots="{{true}}"
+                indicator-active-color="#409eff"
     >
         <swiper-item class="swiper-item"
-                     wx:for="{{swiper}}"
-                     wx:key="{{index}}"
+                   wx:for="{{swiper}}"
+                   wx:key="{{index}}"
         >
             <view class="img-wrap">
-                <image src="{{item.img}}" class="swiper-img"></image>
+                <image src="{{item.img}}" class="swiper-img">
+                </image>
             </view>
         </swiper-item>
-    </swiper>
+        </swiper>
+    </view>
+
 
     <view class="hot-movie">
         <view class="title">热门电影</view>
