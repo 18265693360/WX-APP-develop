@@ -48,7 +48,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -68,6 +68,13 @@
 					"id": 2,
 					"name": "pages/movieDetails/movieDetails",
 					"pathName": "pages/movieDetails/movieDetails",
+					"query": "id=5d1af45c303a760654d72125",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/history/history",
+					"pathName": "pages/history/history",
 					"query": "id=5d1af45c303a760654d72125",
 					"scene": null
 				}

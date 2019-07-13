@@ -52,8 +52,56 @@ Page({
     onLoad(){ //在当前页面加载完成后 会主动执行里面的钩子
        this.getSwiper();
        this.getNews();
+       // this.setStorage();
     },
     onShow(){//在页面显示
 
-    }
+    },
+    // setStorage(){
+    //   wx.setStorageSync('JJ','zhihui');
+    // },
+    // // getDate(){
+    //    getData(){
+    //     console.log(wx.getStorageSync('JJ'));
+    // }
+
+    // login(){
+    //     wx.request({
+    //         success(res) {
+    //             const cookie = res.header.set-cookie;
+    //             wx.setStorageSync('cookie', 'cookie');
+    //             //还要设置axios 每次请求都要带上
+    //         }
+    //     })
+    // },
+
+    //获取微信登录认证
+    // getData(){
+    //    wx.login({
+    //        //微信服务器发的登录认证 相当于会员卡 发给开发者服务器
+    //        //从总店得到认证 可以拿着会员卡去分店买东西
+    //        code: "0431rW6b1AJFgx0Qsd6b1wU17b11rW6P",
+    //        success(res) {
+    //            console.log(res);
+    //        }
+    //    })
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

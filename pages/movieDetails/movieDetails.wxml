@@ -10,6 +10,7 @@
            title="{{movie.title}}"
            poster="{{movie.img}}"
            vslide-gester="{{true}}"
+           bindtimeupdate="getCurrentTime"
     ></video>
 
     <view class="play-list">
@@ -52,7 +53,9 @@
         <view class="guess-content">
             <view class="item"
                   wx:for="{{guess}}"
-                  wx:key="{{index}}">
+                  wx:key="{{index}}"
+                  bindtap="jump"
+            >
                <image src="{{item.img}}" class="item-img"></image>
                <view class="item-right">
                    <view class="title">{{item.title}}</view>

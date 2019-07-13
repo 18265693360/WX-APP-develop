@@ -1,0 +1,47 @@
+/* pages/history/history.wxss */
+.history {
+    padding: 10px;
+    padding-top: 0;
+
+}
+
+.history .item{
+    display: flex;
+    margin-top: 10px;
+}
+
+.history .item .img{
+    display: flex;
+    width: 226rpx;
+    height: 260rpx;
+}
+
+.history .item .item-right{
+    flex: 1;
+    margin-left: 10px;
+}
+
+/*设置 <div> 元素内弹性盒元素的方向*/
+/*灵活的项目将垂直显示，正如一个列一样。*/
+.history .item-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.history .top{
+    font-size: 16px;
+    color: #333;
+}
+
+.history .top .progress{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.history .item-right .msg{
+    font-size: 12px;
+    color: #888;
+}
+

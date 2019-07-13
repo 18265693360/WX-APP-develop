@@ -2,6 +2,7 @@
 
 <!--indicator 轮播图上的点点 后面是双花括号 因为boolean是JS专有的 不是字符串专有的 -->
 <view class="container">
+    <!--<button bindtap="getData">获取数据</button>-->
     <swiper class="news-swiper"
             indicator-dots="{{true}}"
             indicator-active-color="#ff0">

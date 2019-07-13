@@ -4,7 +4,10 @@
     "pages/articleDetails/articleDetails",
     "pages/movie/movie",
     "pages/movieDetails/movieDetails",
-    "pages/swiper-Details/swiper-Details"
+    "pages/swiper-Details/swiper-Details",
+    "pages/login/login",
+    "pages/history/history",
+    "pages/movie_history/movie_history"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,6 +30,18 @@
         "iconPath": "assets/tab-icon/movie_default.png",
         "selectedIconPath": "assets/tab-icon/movie_active.png",
         "pagePath": "pages/movie/movie"
+      },
+      {
+        "text": "个人中心",
+        "iconPath": "assets/tab-icon/login_default.png",
+        "selectedIconPath": "assets/tab-icon/login_active.png",
+        "pagePath": "pages/login/login"
+      },
+      {
+        "text": "观影记录",
+        "iconPath": "assets/tab-icon/login_default.png",
+        "selectedIconPath": "assets/tab-icon/login_active.png",
+        "pagePath": "pages/history/history"
       }
     ]
   },

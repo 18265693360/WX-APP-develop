@@ -1,0 +1,2 @@
+/* pages/movie_history/movie_history.wxss */
+@import '../movieDetails/movieDetails.wxss';
